@@ -29,20 +29,20 @@ const myFunction = function(){
     console.log("hello world");
 }
 //************************************************************************************************ */
-
-// stack(primitive), Heap(Non-Primitive)
-
+//two types of memory allocation in javascript
+// stack(primitive) memory, Heap(Non-Primitive)memory
+//stack example
 let myName = "abhinav"
 
-let anotherName = myName;
+let anotherName = myName; //it always gives copy of ant value we takes
 anotherName ="kumarsingh"
 
 console.log(myName);
 console.log(anotherName);
-
+//heap example
 let userOne ={
-    email: "user@google.com",
-    upi: " uder@ybl"
+    email: "user@google.com",//this two value stored in heap
+    upi: " uder@ybl"//we got refrence value in heap
 }
 
 let userTwo = userOne
