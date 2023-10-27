@@ -63,19 +63,19 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course // coudre -> mtlb kaha se value extract karne hai wo course bta rha hai// this strurcture used to destucture thr value og objects
 
-// console.log(courseInstructor);
-console.log(instructor);
+// console.log(courseInstructor); // thought this we get the value of course instuctor
+console.log(instructor); // we can modify and or destructure the object using above operation we get the same value here as we get just above
 
 // {
 //     "name": "hitesh",
-//     "coursename": "js in hindi",
+//     "coursename": "js in hindi",       // objects inside jason format
 //     "price": "free"
 // }
 
 [
-    {},
+    {}, //  jason API  deceleration inside this 
     {},
     {}
 ]
