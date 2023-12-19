@@ -90,13 +90,13 @@ consumePromiseFive()
 //getAllUsers()
 
 fetch('https://api.github.com/users/hiteshchoudhary')
-.then((response) => {
+.then((response) => {  //  it means response yeha  aaya hai toh yeha send ho gya
     return response.json()
 })
-.then((data) => {
+.then((data) => {  // resolve ho gya
     console.log(data);
 })
-.catch((error) => console.log(error))
+.catch((error) => console.log(error))  // else reject ho gya
 
 // promise.all
 // yes this is also available, kuch reading aap b kro.
